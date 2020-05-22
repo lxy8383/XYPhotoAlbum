@@ -16,6 +16,10 @@
 		50459AEA2473BBAD00D59C8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50459AE92473BBAD00D59C8B /* main.m */; };
 		50459AF42473BBAE00D59C8B /* XYAlbumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50459AF32473BBAE00D59C8B /* XYAlbumTests.m */; };
 		50459AFF2473BBAE00D59C8B /* XYAlbumUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50459AFE2473BBAE00D59C8B /* XYAlbumUITests.m */; };
+		50459B0F2473BC0E00D59C8B /* XYAlbumManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = 50459B0E2473BC0E00D59C8B /* XYAlbumManagement.m */; };
+		50459B12247626CF00D59C8B /* ALbumAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50459B11247626CF00D59C8B /* ALbumAssetModel.m */; };
+		50459B15247669B500D59C8B /* AlbumListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50459B14247669B500D59C8B /* AlbumListController.m */; };
+		50459B18247679C600D59C8B /* XYAlbumManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 50459B17247679C600D59C8B /* XYAlbumManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,15 @@
 		50459AFA2473BBAE00D59C8B /* XYAlbumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYAlbumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50459AFE2473BBAE00D59C8B /* XYAlbumUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYAlbumUITests.m; sourceTree = "<group>"; };
 		50459B002473BBAE00D59C8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50459B0D2473BC0E00D59C8B /* XYAlbumManagement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYAlbumManagement.h; sourceTree = "<group>"; };
+		50459B0E2473BC0E00D59C8B /* XYAlbumManagement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYAlbumManagement.m; sourceTree = "<group>"; };
+		50459B10247626CF00D59C8B /* ALbumAssetModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALbumAssetModel.h; sourceTree = "<group>"; };
+		50459B11247626CF00D59C8B /* ALbumAssetModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALbumAssetModel.m; sourceTree = "<group>"; };
+		50459B13247669B500D59C8B /* AlbumListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlbumListController.h; sourceTree = "<group>"; };
+		50459B14247669B500D59C8B /* AlbumListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlbumListController.m; sourceTree = "<group>"; };
+		50459B16247679C600D59C8B /* XYAlbumManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYAlbumManager.h; sourceTree = "<group>"; };
+		50459B17247679C600D59C8B /* XYAlbumManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYAlbumManager.m; sourceTree = "<group>"; };
+		50459B1924767DFF00D59C8B /* XYAlbumManagerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYAlbumManagerDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +117,7 @@
 		50459AD62473BBA900D59C8B /* XYAlbum */ = {
 			isa = PBXGroup;
 			children = (
+				50459B0C2473BBF300D59C8B /* Album */,
 				50459AD72473BBA900D59C8B /* AppDelegate.h */,
 				50459AD82473BBA900D59C8B /* AppDelegate.m */,
 				50459ADA2473BBA900D59C8B /* SceneDelegate.h */,
@@ -135,6 +149,22 @@
 				50459B002473BBAE00D59C8B /* Info.plist */,
 			);
 			path = XYAlbumUITests;
+			sourceTree = "<group>";
+		};
+		50459B0C2473BBF300D59C8B /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				50459B1924767DFF00D59C8B /* XYAlbumManagerDelegate.h */,
+				50459B13247669B500D59C8B /* AlbumListController.h */,
+				50459B14247669B500D59C8B /* AlbumListController.m */,
+				50459B0D2473BC0E00D59C8B /* XYAlbumManagement.h */,
+				50459B0E2473BC0E00D59C8B /* XYAlbumManagement.m */,
+				50459B10247626CF00D59C8B /* ALbumAssetModel.h */,
+				50459B11247626CF00D59C8B /* ALbumAssetModel.m */,
+				50459B16247679C600D59C8B /* XYAlbumManager.h */,
+				50459B17247679C600D59C8B /* XYAlbumManager.m */,
+			);
+			path = Album;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +297,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50459B18247679C600D59C8B /* XYAlbumManager.m in Sources */,
+				50459B12247626CF00D59C8B /* ALbumAssetModel.m in Sources */,
+				50459B0F2473BC0E00D59C8B /* XYAlbumManagement.m in Sources */,
+				50459B15247669B500D59C8B /* AlbumListController.m in Sources */,
 				50459ADF2473BBA900D59C8B /* ViewController.m in Sources */,
 				50459AD92473BBA900D59C8B /* AppDelegate.m in Sources */,
 				50459AEA2473BBAD00D59C8B /* main.m in Sources */,
