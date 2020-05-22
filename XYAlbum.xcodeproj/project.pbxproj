@@ -20,6 +20,7 @@
 		50459B12247626CF00D59C8B /* ALbumAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50459B11247626CF00D59C8B /* ALbumAssetModel.m */; };
 		50459B15247669B500D59C8B /* AlbumListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50459B14247669B500D59C8B /* AlbumListController.m */; };
 		50459B18247679C600D59C8B /* XYAlbumManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 50459B17247679C600D59C8B /* XYAlbumManager.m */; };
+		50459B232478004600D59C8B /* AlbumItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50459B222478004600D59C8B /* AlbumItemController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		50459B16247679C600D59C8B /* XYAlbumManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYAlbumManager.h; sourceTree = "<group>"; };
 		50459B17247679C600D59C8B /* XYAlbumManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYAlbumManager.m; sourceTree = "<group>"; };
 		50459B1924767DFF00D59C8B /* XYAlbumManagerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYAlbumManagerDelegate.h; sourceTree = "<group>"; };
+		50459B212478004600D59C8B /* AlbumItemController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlbumItemController.h; sourceTree = "<group>"; };
+		50459B222478004600D59C8B /* AlbumItemController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlbumItemController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +166,8 @@
 				50459B11247626CF00D59C8B /* ALbumAssetModel.m */,
 				50459B16247679C600D59C8B /* XYAlbumManager.h */,
 				50459B17247679C600D59C8B /* XYAlbumManager.m */,
+				50459B212478004600D59C8B /* AlbumItemController.h */,
+				50459B222478004600D59C8B /* AlbumItemController.m */,
 			);
 			path = Album;
 			sourceTree = "<group>";
@@ -297,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50459B232478004600D59C8B /* AlbumItemController.m in Sources */,
 				50459B18247679C600D59C8B /* XYAlbumManager.m in Sources */,
 				50459B12247626CF00D59C8B /* ALbumAssetModel.m in Sources */,
 				50459B0F2473BC0E00D59C8B /* XYAlbumManagement.m in Sources */,

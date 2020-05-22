@@ -61,6 +61,11 @@ static NSString *kAlbumListCellIdentifier = @"kAlbumListCellIdentifier";
     return 150;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    // 进入详情
+    
+}
+
 #pragma mark - lazy
 - (UITableView *)tableView {
     if(!_tableView){
